@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav{
+    background-color: rgb(1, 18, 1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 40px;
+}
+.branding{
+    color: white;
+}
+.branding h1{
+    font-size: 40px;
+}
+.nav-links{
+    display: flex;
+ 
+}
+.nav-links li{
+    list-style: none;
+   
+}
+.nav-links li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0 20px;
+ 
+
+}
+.hero_section{
+    height: 90vh;
+    background-image: linear-gradient(rgba(0,0,0,0.6) , rgba(0,0,0,0.6) ),url('./images/hotel-bg.jpg');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+
+}
+.hero_content{
+    color: white;
+    padding-left: 30px;
+}
+.hero_content h1{
+    font-size: 54px;
+    letter-spacing: 5px;
+}
+.showcase{
+    height: 70vh; 
+    display: flex;
+}
+.left{
+    background-image: url('./images/bedroom.jpg');
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    flex: 1;
+}
+.right{
+    flex: 1;
+    padding: 20px;
+    color: rgb(1, 18, 1);
+    padding-top: 60px;
+    padding-left: 30px;
+}
+.right h1{
+    font-size: 42px;
+}
+.right img{
+    height: 50px;
+    background-color: rgb(1, 18, 1);
+    padding: 20px;
+    border-radius: 100%;
+}
+.right button{
+    border: none;
+    background-color: rgb(1, 18, 1);
+    padding: 15px 20px;
+    color: white;
+    margin-top: 20px;
+}
+.belt{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(1, 18, 1);
+}
+.line{
+    border-bottom: 2px solid rgb(1, 18, 1);
+    width: 60px;
+    margin-top: 5px;
+}
+
+/* Testimonial Section */
+.testimonial .cards{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    gap: 40px;
+}
+.testimonial .cards .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.testimonial .cards .card .image{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 7px solid rgb(1, 18, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.testimonial .cards .card .image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.testimonial .cards .card{
+    background-color: rgb(174, 222, 182);
+    width: 30%;
+    height: 40vh;
+    padding: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px ;
+  
+}
+.testimonial .cards .card .testimony{
+    text-align: center;
+    color: rgb(1, 18, 1);
+}
+.testimonial .cards .card .testimony h3{
+    color: rgb(12, 50, 12);
+}
+.testimonial .cards .card .testimony p span{
+    font-size: 40px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* Hero section */
+.hero-bg{
+    background-image:  linear-gradient(rgba(11, 45, 20, 0.6) , rgba(0,0,0,0.6) ), url('./images/pool.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 70vh; 
+    margin-top: 5vh;
+
+}
+.hero-bg-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+}
+.hero-bg-content h1{
+    font-size: 60px;
+    color: white;
+}
+.hero-bg-content div{
+    margin-top: 4vh;
+}
+.hero-bg-content div a{
+    border: 1px solid white;
+    text-decoration: none;
+    color: white;
+    padding: 15px 20px;
+}
+.hero-bg-content div a:hover{
+    color: black;
+    background-color: white;
+}
+footer{
+    background-color: rgb(1, 18, 1);
+    border-top: 2px solid rgb(26, 130, 26);
+    text-align: center;
+    color: rgb(174, 222, 182);
+    padding: 30px 0;
+}
